@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Posts</h1>
+        <h1>Courses</h1>
         <div class="row">
             <div class="col-md-10"></div>
             <div class="col-md-2">
@@ -12,8 +12,8 @@
             <thead>
             <tr>
                 <th>ID</th>
-                <th>Item Name</th>
-                <th>Item Price</th>
+                <th>Course</th>
+                <th>Course Description</th>
                 <th>Actions</th>
             </tr>
             </thead>

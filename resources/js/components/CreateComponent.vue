@@ -1,11 +1,11 @@
 <template>
     <div>
-        <h1>Create A Post</h1>
+        <h1>Register a course</h1>
         <form @submit.prevent="addPost">
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label>Post Title:</label>
+                        <label>Course Title:</label>
                         <input type="text" class="form-control" v-model="post.title">
                     </div>
                 </div>
@@ -13,8 +13,8 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="form-group">
-                        <label>Post Body:</label>
-                        <textarea class="form-control" v-model="post.body" rows="5"></textarea>
+                        <label>Course description:</label>
+                        <textarea class="form-control" v-model="post.body" rows="2"></textarea>
                     </div>
                 </div>
             </div><br />
